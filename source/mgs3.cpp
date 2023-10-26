@@ -26,7 +26,7 @@ struct OsContext
     HWND window;
 };
 
-OsContext *MGS3_ = (OsContext *)nullptr; // 0x7FF740E21050; // 0x141EF8878;
+OsContext *MGS3_gpOsContext = (OsContext *)nullptr; // 0x7FF740E21050; // 0x141EF8878;
 HWND MGS3_GameWindow = nullptr;
 
 std::thread MGS3_UpdateThread;

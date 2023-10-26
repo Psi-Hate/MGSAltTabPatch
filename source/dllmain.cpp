@@ -22,14 +22,14 @@ void InitThreadFn(void)
         {
             return;
         }
-        if (FindWindowA(NULL, "METAL GEAR SOLID 3 SNAKE EATER") != 0x0000000000000000 || FindWindowA(NULL, "METAL GEAR SOLID 3 SNAKE EATER") != NULL)
+        if (FindWindowA(NULL, "METAL GEAR SOLID 3 SNAKE EATER") != 0x0000000000000000 && FindWindowA(NULL, "METAL GEAR SOLID 3 SNAKE EATER") != NULL)
         {
             std::cout << "MGS3 Init\n";
             isMGS3 = true;
             MGS3_Init();
             InitThreadShouldClose = 1;
         }
-        else if (FindWindowA(NULL, "METAL GEAR SOLID 2 SONS OF LIBERTY") != 0x0000000000000000 || FindWindowA(NULL, "METAL GEAR SOLID 2 SONS OF LIBERTY") != NULL)
+        else if (FindWindowA(NULL, "METAL GEAR SOLID 2 SONS OF LIBERTY") != 0x0000000000000000 && FindWindowA(NULL, "METAL GEAR SOLID 2 SONS OF LIBERTY") != NULL)
         {
             std::cout << "MGS2 Init\n";
             isMGS2 = true;
