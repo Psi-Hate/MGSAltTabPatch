@@ -1,16 +1,17 @@
-# MGSResolutionPatch
+# MGSAltTabPatch
 
-This is an experimental ASI Plugin for Steam releases of Metal Gear Solid 2 and Metal Gear Solid 3.
-It allows to change ingame resolution via ini config.
+This is an ASI plugin Metal Gear Solid 3.
+It enables MGS3 to properly ALT+Tab without minimizing, and prohibits the game from forcibly pausing when unfocused.
 
-Recommended for play with MGS 3 at resolutions 1920x1080, 2560x1440 and 3840x2160.
-The plugin is compatible with MGS 2, however increased resolution introduces noticeable bugs to the UI.
-Resolutions other than above mentioned are not guaranteed to produce an adequate image (it might be stretched), but I didn't test every possible resolution that is out there, so you might as well try whatever resolution you want.
+Recommended for those who wish to play when not tabbed in, useful when streaming from OBS, Discord, etc.
 
 ## Installation
 
 1. Download the latest Ultimate ASI Loader from here: https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/download/x64-latest/d3d11-x64.zip
-2. Put d3d11.dll from Ultimate ASI Loader into your MGS2/MGS3 directory
-3. Download the latest MGSResolutionPatch from here: https://github.com/Sergeanur/MGSResolutionPatch/releases
-4. Put MGSResolutionPatch.asi and MGSResolutionPatch.ini into your MGS2/MGS3 directory
-5. Open MGSResolutionPatch.ini with a text editor to change the resolution to the one you desire
+2. Put d3d11.dll from Ultimate ASI Loader into your MGS3 directory
+3. Download the latest MGSAltTabPatch from here: https://github.com/Psi-Hate/MGSAltTabPatch/releases
+4. Put MGSAltTabPatch.asi into your MGS3 directory
+
+## Credits
+Drahsid - Reverse Engineering Guidance
+Sergeanur - The original patch template from what this is based off of. Thanks!
