@@ -16,7 +16,7 @@ project "MGSALTTABPatch"
    includedirs { "source" }
    includedirs { "external" }
    
-   files { "source/dllmain.h", "source/dllmain.cpp", "external/Hooking.Patterns/Hooking.Patterns.cpp", "external/Hooking.Patterns/Hooking.Patterns.h" }
+   files { "source/dllmain.h", "source/dllmain.cpp", "source/codereplacement.cpp", "source/codereplacement.h", "source/mgs2.cpp", "source/mgs2.h", "source/mgs3.cpp", "source/mgs3.h", "external/Hooking.Patterns/Hooking.Patterns.cpp", "external/Hooking.Patterns/Hooking.Patterns.h" }
    
    characterset ("UNICODE")
    
