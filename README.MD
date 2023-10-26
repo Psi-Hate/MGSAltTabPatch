@@ -1,6 +1,6 @@
 # MGSAltTabPatch
 
-This is an ASI plugin for the Master Collection's Metal Gear Solid 2 amd Metal Gear Solid 3 PC ports.
+This is an ASI plugin for the MGS Master Collection's Metal Gear Solid 2 and Metal Gear Solid 3 PC ports.
 It enables MGS2 & MGS3 to properly ALT+Tab without minimizing, and prohibits the game from forcibly pausing when unfocused.
 
 Recommended for those who wish to play when not tabbed in, useful when streaming from OBS, Discord, etc.
